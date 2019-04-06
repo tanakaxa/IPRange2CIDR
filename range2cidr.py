@@ -7,7 +7,7 @@ input_file_path = ''
 # Export CSV File Path
 output_file_path = ''
 
-# Outputファイルが存在する場合oldファイルにする
+# Exportファイルが存在する場合oldファイルにする
 if os.path.isfile(output_file_path):
     os.rename(output_file_path, output_file_path + '.old')
 
